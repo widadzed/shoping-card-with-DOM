@@ -1,0 +1,50 @@
+
+.nav-flex{
+    display: flex;
+   justify-content: space-between;
+    background-color: antiquewhite;
+    height: 40px;
+    margin-bottom:10px;
+}
+.item-quantity {
+    display: flex; 
+    align-items: center; 
+}
+
+.add-btn {
+    padding: 5px 10px;
+    background-color: #007bff; 
+    color: white;
+   
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.quantity {
+    margin: 0 10px; 
+}
+.ri-delete-bin-line,
+.heart {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 10px;
+    font-size: 25px; 
+}
+.total-price{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.row{
+    background-color: antiquewhite;
+    
+}
+button{
+    background-color: antiquewhite;
+    border: 0px;
+}
+
+.black {
+    color: black;
+}
